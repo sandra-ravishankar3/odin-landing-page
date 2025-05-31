@@ -35,12 +35,16 @@
   padding-left: 100px;
   padding-right: 100px;
   align-items: center;
+  justify-content: space-evenly;
 }
 .opener .lh {
   display: flex;
   flex-direction: column;
   margin-right: 15px;
   gap: 10px;
+}
+.opener p {
+  max-width: 600px;
 }
 
 .opener .lh button {
@@ -100,6 +104,7 @@
 
 .card p {
   text-align: center;
+  max-width: 200px;
 }
 
 .quote-section {
