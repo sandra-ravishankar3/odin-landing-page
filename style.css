@@ -1,0 +1,159 @@
+* {
+  margin: 0px;
+  font-family: "Tahoma";
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.header {
+  display: flex;
+  flex: auto;
+  background-color: #1f2937;
+  margin-bottom: auto;
+  color: white;
+  gap: 20px;
+  justify-content: flex-end;
+  padding: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#header-logo {
+  margin-right: auto;
+  font-weight: bold;
+}
+
+.opener {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  padding: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  align-items: center;
+}
+.opener .lh {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  gap: 10px;
+}
+
+.opener .lh button {
+  background-color: #3882f6;
+  width: 150px;
+  border-radius: 10px;
+  color: white;
+  border: 3px solid #3882f6;
+}
+.opener .rh {
+  display: flex;
+  background-color: grey;
+  color: lightgrey;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  padding: 50px;
+}
+.info-section {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 15px;
+}
+
+.info-section h2 {
+  font-weight: bold;
+  font-size: 36;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card .photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 25px;
+  border: 3px solid #3882f6;
+}
+
+.card p {
+  text-align: center;
+}
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  color: black;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 10px;
+}
+
+.quote-section #quote {
+  font-size: 36px;
+  font-style: italic;
+}
+.quote-section #author {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 30px;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 15px;
+}
+.action .lh {
+  display: flex;
+  flex-direction: column;
+}
+
+.action button {
+  background-color: #3882f6;
+  border-radius: 10px;
+  width: 150px;
+  border: 3px solid white;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  background-color: #1f2937;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  padding: 20px;
+  color: white;
+}
